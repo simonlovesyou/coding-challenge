@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest src",
     "build:ts": "yarn tsc --project ./tsconfig.build.json",
-    "build": "yarn build:ts"
+    "build": "yarn build:ts",
+    "build:docs": "yarn typedoc src/index.ts --plugin typedoc-plugin-markdown && rm docs/.nojekyll docs/README.md"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
