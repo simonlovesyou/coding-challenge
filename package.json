@@ -1,4 +1,9 @@
 {
   "name": "coding-challenge",
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.0",
+  "workspaces": [
+    "bin",
+    "lib",
+    "packages/*"
+  ]
 }
