@@ -23,7 +23,7 @@ A test case has the following format:
 height width
 [bitmap]
 ```
-where `[bitmap]` is the test bitmap with the same dimensions as specified in the preceding line. Each row in the bitmap is separated via a newline. Each test case is separated via a new line & the first line received through stdio must be the number of test cases.
+where `[bitmap]` is the test bitmap with the same dimensions as specified in the preceding line. Each row in the bitmap is separated with a newline. Each test case is separated with an empty new line. The first line received through stdio must be the number of test cases.
 
 ### Example
 ```
