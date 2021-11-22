@@ -1607,22 +1607,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@simonlovesyou/eslint-config@file:../eslint-config::locator=map-matrix%40workspace%3Apackages%2Fmap-matrix":
-  version: 0.0.0
-  resolution: "@simonlovesyou/eslint-config@file:../eslint-config#../eslint-config::hash=42469e&locator=map-matrix%40workspace%3Apackages%2Fmap-matrix"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": ^5.4.0
-    "@typescript-eslint/parser": ^5.4.0
-    eslint: ^8.2.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-unicorn: ^38.0.1
-    prettier: ^2.4.1
-    typescript: ^4.5.2
-  checksum: b8cad90d35d0bb92875411addd5dab7e98d9031c625467563a6cfa210207593cee3aaf15aec4d827c0c8ab5936ba49e7d12aa45924dd9ce481942ec8a9b2708b
-  languageName: node
-  linkType: hard
-
-"@simonlovesyou/eslint-config@workspace:packages/eslint-config":
+"@simonlovesyou/eslint-config@workspace:1.0.0, @simonlovesyou/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@simonlovesyou/eslint-config@workspace:packages/eslint-config"
   dependencies:
@@ -2566,6 +2551,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"create-matrix@workspace:1.0.0, create-matrix@workspace:packages/create-matrix":
+  version: 0.0.0-use.local
+  resolution: "create-matrix@workspace:packages/create-matrix"
+  dependencies:
+    "@babel/core": ^7.16.0
+    "@babel/preset-env": ^7.16.4
+    "@babel/preset-typescript": ^7.16.0
+    "@simonlovesyou/eslint-config": "workspace:1.0.0"
+    "@tsconfig/node16": ^1.0.2
+    "@types/jest": ^27.0.3
+    "@typescript-eslint/eslint-plugin": ^5.4.0
+    "@typescript-eslint/parser": ^5.4.0
+    babel-jest: ^27.3.1
+    eslint: ^8.2.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-unicorn: ^38.0.1
+    jest: ^27.3.1
+    prettier: ^2.4.1
+    ts-jest: ^27.0.7
+    typedoc: ^0.22.9
+    typedoc-plugin-markdown: ^3.11.6
+    typescript: ^4.5.2
+  languageName: unknown
+  linkType: soft
+
 "cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
@@ -3142,6 +3152,32 @@ __metadata:
   checksum: cc283f4e65b504259e64fd969bcf4def4eb08d85565e906b7d36516e87819db52029a76b6363d0f02d0d532f0033c9603b9e2d943d56ee3b0d4f7ad3328ff917
   languageName: node
   linkType: hard
+
+"filter-matrix@workspace:1.0.0, filter-matrix@workspace:packages/filter-matrix":
+  version: 0.0.0-use.local
+  resolution: "filter-matrix@workspace:packages/filter-matrix"
+  dependencies:
+    "@babel/core": ^7.16.0
+    "@babel/preset-env": ^7.16.4
+    "@babel/preset-typescript": ^7.16.0
+    "@simonlovesyou/eslint-config": "workspace:1.0.0"
+    "@tsconfig/node16": ^1.0.2
+    "@types/jest": ^27.0.3
+    "@typescript-eslint/eslint-plugin": ^5.4.0
+    "@typescript-eslint/parser": ^5.4.0
+    babel-jest: ^27.3.1
+    eslint: ^8.2.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-unicorn: ^38.0.1
+    jest: ^27.3.1
+    map-matrix: "workspace:1.0.0"
+    prettier: ^2.4.1
+    ts-jest: ^27.0.7
+    typedoc: ^0.22.9
+    typedoc-plugin-markdown: ^3.11.6
+    typescript: ^4.5.2
+  languageName: unknown
+  linkType: soft
 
 "find-up@npm:^4.0.0, find-up@npm:^4.1.0":
   version: 4.1.0
@@ -4407,6 +4443,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lib@workspace:lib":
+  version: 0.0.0-use.local
+  resolution: "lib@workspace:lib"
+  dependencies:
+    "@babel/core": ^7.16.0
+    "@babel/preset-env": ^7.16.4
+    "@babel/preset-typescript": ^7.16.0
+    "@simonlovesyou/eslint-config": "workspace:1.0.0"
+    "@tsconfig/node16": ^1.0.2
+    "@types/jest": ^27.0.3
+    "@typescript-eslint/eslint-plugin": ^5.4.0
+    "@typescript-eslint/parser": ^5.4.0
+    babel-jest: ^27.3.1
+    create-matrix: "workspace:1.0.0"
+    eslint: ^8.2.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-unicorn: ^38.0.1
+    filter-matrix: "workspace:1.0.0"
+    jest: ^27.3.1
+    map-matrix: "workspace:1.0.0"
+    merge-matrices: "workspace:1.0.0"
+    point-distance: "workspace:1.0.0"
+    prettier: ^2.4.1
+    ts-jest: ^27.0.7
+    typedoc: ^0.22.9
+    typedoc-plugin-markdown: ^3.11.6
+    typescript: ^4.5.2
+  languageName: unknown
+  linkType: soft
+
 "lines-and-columns@npm:^1.1.6":
   version: 1.1.6
   resolution: "lines-and-columns@npm:1.1.6"
@@ -4525,14 +4591,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"map-matrix@workspace:packages/map-matrix":
+"map-matrix@workspace:1.0.0, map-matrix@workspace:packages/map-matrix":
   version: 0.0.0-use.local
   resolution: "map-matrix@workspace:packages/map-matrix"
   dependencies:
     "@babel/core": ^7.16.0
     "@babel/preset-env": ^7.16.4
     "@babel/preset-typescript": ^7.16.0
-    "@simonlovesyou/eslint-config": "file:../eslint-config"
+    "@simonlovesyou/eslint-config": "workspace:1.0.0"
     "@tsconfig/node16": ^1.0.2
     "@types/jest": ^27.0.3
     "@typescript-eslint/eslint-plugin": ^5.4.0
@@ -4558,6 +4624,32 @@ __metadata:
   checksum: 3cdeaa126bbeca5b1b8d2f91e9728018dcd63b250233f3607009a4d70bb6bd9df8c769f1bc52ce9856d1316c91c9dacb1d94d80696f76d094146b4fab126a4eb
   languageName: node
   linkType: hard
+
+"merge-matrices@workspace:1.0.0, merge-matrices@workspace:packages/merge-matrices":
+  version: 0.0.0-use.local
+  resolution: "merge-matrices@workspace:packages/merge-matrices"
+  dependencies:
+    "@babel/core": ^7.16.0
+    "@babel/preset-env": ^7.16.4
+    "@babel/preset-typescript": ^7.16.0
+    "@simonlovesyou/eslint-config": "workspace:1.0.0"
+    "@tsconfig/node16": ^1.0.2
+    "@types/jest": ^27.0.3
+    "@typescript-eslint/eslint-plugin": ^5.4.0
+    "@typescript-eslint/parser": ^5.4.0
+    babel-jest: ^27.3.1
+    eslint: ^8.2.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-unicorn: ^38.0.1
+    jest: ^27.3.1
+    map-matrix: "workspace:1.0.0"
+    prettier: ^2.4.1
+    ts-jest: ^27.0.7
+    typedoc: ^0.22.9
+    typedoc-plugin-markdown: ^3.11.6
+    typescript: ^4.5.2
+  languageName: unknown
+  linkType: soft
 
 "merge-stream@npm:^2.0.0":
   version: 2.0.0
@@ -5072,6 +5164,32 @@ __metadata:
   checksum: 08931d4a6a4a5561a7f94f67a31c17e6632cb21e459ab3ff4f6f629d9a822984cf8afef2311d2005fbea5d7ef26016ebb090db008e2d8bce39d0a9a9d218736e
   languageName: node
   linkType: hard
+
+"point-distance@workspace:1.0.0, point-distance@workspace:packages/point-distance":
+  version: 0.0.0-use.local
+  resolution: "point-distance@workspace:packages/point-distance"
+  dependencies:
+    "@babel/core": ^7.16.0
+    "@babel/preset-env": ^7.16.4
+    "@babel/preset-typescript": ^7.16.0
+    "@simonlovesyou/eslint-config": "workspace:1.0.0"
+    "@tsconfig/node16": ^1.0.2
+    "@types/jest": ^27.0.3
+    "@typescript-eslint/eslint-plugin": ^5.4.0
+    "@typescript-eslint/parser": ^5.4.0
+    babel-jest: ^27.3.1
+    eslint: ^8.2.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-unicorn: ^38.0.1
+    jest: ^27.3.1
+    map-matrix: "workspace:1.0.0"
+    prettier: ^2.4.1
+    ts-jest: ^27.0.7
+    typedoc: ^0.22.9
+    typedoc-plugin-markdown: ^3.11.6
+    typescript: ^4.5.2
+  languageName: unknown
+  linkType: soft
 
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
