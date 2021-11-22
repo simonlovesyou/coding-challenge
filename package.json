@@ -6,8 +6,13 @@
     "test": "yarn workspaces foreach run test"
   },
   "workspaces": [
-    "bin",
+    "packages/eslint-config",
+    "packages/map-matrix",
+    "packages/filter-matrix",
+    "packages/merge-matrices",
+    "packages/create-matrix",
+    "packages/point-distance",
     "lib",
-    "packages/*"
+    "bin"
   ]
 }
