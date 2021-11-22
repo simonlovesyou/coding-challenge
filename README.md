@@ -17,5 +17,28 @@ yarn install
 ## Usage
 Send your matrix test cases through stdin to `./node_modules/.bin/distance-map-test`
 
+### Format
+A test case has the following format:
+```
+height width
+[bitmap]
+```
+where `[bitmap]` is the test bitmap with the same dimensions as specified in the preceding line. Each row in the bitmap is separated via a newline. Each test case is separated via a new line & the first line received through stdio must be the number of test cases.
+
+### Example
+```
+2
+3 4
+0001
+0011
+0110
+
+5 5
+00010
+00110
+11111
+00000
+10000
+```
 ## Testing
 To run all tests for all packages, run `yarn test` in the root repository. To run tests for an auxiliary package, either navigate to that package and run `yarn test` or run `yarn workspace {WORKSPACE_NAME} run test` in repository root.
