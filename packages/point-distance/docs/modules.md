@@ -1,6 +1,6 @@
-[filter-matrix](README.md) / Exports
+[point-distance](README.md) / Exports
 
-# filter-matrix
+# point-distance
 
 ## Table of contents
 
@@ -12,26 +12,19 @@
 
 ### default
 
-▸ `Const` **default**<`TValue`, `TPredicate`\>(`predicate`, `matrix`): `Point`[]
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `TValue` | `TValue` |
-| `TPredicate` | extends `Predicate`<`boolean`, `TValue`\> |
+▸ `Const` **default**(`pointA`, `pointB`): `number`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `predicate` | `TPredicate` |
-| `matrix` | `Matrix`<`TValue`\> |
+| `pointA` | `Point` |
+| `pointB` | `Point` |
 
 #### Returns
 
-`Point`[]
+`number`
 
 #### Defined in
 
-index.ts:16
+[index.ts:6](https://github.com/simonlovesyou/coding-challenge/blob/39cbe01/packages/point-distance/src/index.ts#L6)

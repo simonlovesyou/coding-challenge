@@ -1,5 +1,5 @@
-# merge-matrices 
+# point-distance
 
-Merge two matrices together by some function
+Calculate the distance between two points in a matrix.
 ## API
 [See docs/modules.md](docs/modules.md)
