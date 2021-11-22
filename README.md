@@ -42,3 +42,17 @@ where `[bitmap]` is the test bitmap with the same dimensions as specified in the
 ```
 ## Testing
 To run all tests for all packages, run `yarn test` in the root repository. To run tests for an auxiliary package, either navigate to that package and run `yarn test` or run `yarn workspace {WORKSPACE_NAME} run test` in repository root.
+
+## Packages
+
+| Package                                     | Description                               |
+|---------------------------------------------|-------------------------------------------|
+| [bin](./bin)                                | Main executable of the coding challenge   |
+| [lib](./lib)                                | Main program logic                        |
+| [create-matrix](./packages/create-matrix)   | Create a matrix provided some dimensions  |
+| [eslint-config](./packages/eslint-config)   | `eslint` config for the repository        |
+| [filter-matrix](./packages/filter-matrix)   | Filter points from a matrix               |
+| [map-matrix](./packages/map-matrix)         | Map/Iterate over points in a matrix       |
+| [merge-matrices](./packages/merge-matrices) | Merge two matrices by some iterable       |
+| [point-distance](./packages/point-distance) | Calculate the distance between two points |
+|                                             |                                           |
