@@ -1,6 +1,6 @@
-[filter-matrix](README.md) / Exports
+[merge-matrices](README.md) / Exports
 
-# filter-matrix
+# merge-matrices
 
 ## Table of contents
 
@@ -12,26 +12,28 @@
 
 ### default
 
-▸ `Const` **default**<`TValue`, `TPredicate`\>(`predicate`, `matrix`): `Point`[]
+▸ `Const` **default**<`TValueA`, `TValueB`, `TMergeFunction`\>(`mergeFunction`, `matrixA`, `matrixB`): `Matrix`<`ReturnType`<`TMergeFunction`\>\>
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `TValue` | `TValue` |
-| `TPredicate` | extends `Predicate`<`boolean`, `TValue`\> |
+| `TValueA` | `TValueA` |
+| `TValueB` | `TValueB` |
+| `TMergeFunction` | extends `MatrixMergeFunction`<`TValueA`, `TValueB`, `any`\> |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `predicate` | `TPredicate` |
-| `matrix` | `Matrix`<`TValue`\> |
+| `mergeFunction` | `TMergeFunction` |
+| `matrixA` | `Matrix`<`TValueA`\> |
+| `matrixB` | `Matrix`<`TValueB`\> |
 
 #### Returns
 
-`Point`[]
+`Matrix`<`ReturnType`<`TMergeFunction`\>\>
 
 #### Defined in
 
-index.ts:16
+[index.ts:10](https://github.com/simonlovesyou/coding-challenge/blob/0e627e7/packages/merge-matrices/src/index.ts#L10)
