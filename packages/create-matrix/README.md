@@ -1,5 +1,5 @@
-# filter-matrix
+# create-matrix
 
-Filter points in an matrix provided with a predicate function
+Create a matrix by the provided dimensions with some fill value.
 ## API
 [See docs/modules.md](docs/modules.md)

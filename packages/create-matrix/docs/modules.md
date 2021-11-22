@@ -1,6 +1,6 @@
-[filter-matrix](README.md) / Exports
+[create-matrix](README.md) / Exports
 
-# filter-matrix
+# create-matrix
 
 ## Table of contents
 
@@ -12,26 +12,26 @@
 
 ### default
 
-▸ `Const` **default**<`TValue`, `TPredicate`\>(`predicate`, `matrix`): `Point`[]
+▸ `Const` **default**<`TValue`\>(`width`, `height`, `fillValue`): `Matrix`<`TValue`\>
 
 #### Type parameters
 
-| Name | Type |
-| :------ | :------ |
-| `TValue` | `TValue` |
-| `TPredicate` | extends `Predicate`<`boolean`, `TValue`\> |
+| Name |
+| :------ |
+| `TValue` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `predicate` | `TPredicate` |
-| `matrix` | `Matrix`<`TValue`\> |
+| `width` | `number` |
+| `height` | `number` |
+| `fillValue` | `TValue` |
 
 #### Returns
 
-`Point`[]
+`Matrix`<`TValue`\>
 
 #### Defined in
 
-index.ts:16
+[index.ts:3](https://github.com/simonlovesyou/coding-challenge/blob/873cd44/packages/create-matrix/src/index.ts#L3)
